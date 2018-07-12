@@ -1,20 +1,16 @@
 import React, { Component } from 'react';
-import './Header.css';
+import './Footer.css';
 
-class Header extends Component {
-
-  handleMenuClick(){
-    console.log("ff")
-  }
+class Footer extends Component {
 
   render() {
     return (
-      <div className="header w3-bar w3-top w3-black w3-large">
-        <button className="w3-bar-item w3-button w3-hide-large w3-hover-none w3-hover-text-light-grey" onClick={this.handleMenuClick}><i className="fa fa-bars"></i>  Menu</button>
-        <span className="w3-bar-item w3-right">Logo</span>
-      </div>
+      <footer className="w3-container w3-padding-8 w3-grey Footer">
+        <h4 className="Footer-title">FOOTER</h4>
+        <p className="Footer-intro">Powered by Jo</p>
+      </footer>
     );
   }
 }
 
-export default Header;
+export default Footer;
