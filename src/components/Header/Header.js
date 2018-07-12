@@ -4,7 +4,13 @@ import './Header.css';
 class Header extends Component {
 
   handleMenuClick(){
-    console.log("ff")
+    if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+        overlayBg.style.display = "none";
+    } else {
+        mySidebar.style.display = 'block';
+        overlayBg.style.display = "block";
+    }    
   }
 
   render() {

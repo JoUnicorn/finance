@@ -1,11 +1,7 @@
 import React, { Component } from 'react';
-import './Header.css';
+import './Cards.css';
 
-class Header extends Component {
-
-  handleMenuClick(){
-    console.log("ff")
-  }
+class Cards extends Component {
 
   render() {
     return (
@@ -17,4 +13,4 @@ class Header extends Component {
   }
 }
 
-export default Header;
+export default Cards;
