@@ -2,21 +2,35 @@ import React, { Component } from 'react';
 import './App.css';
 import Content from '../Content/Content';
 import Header from '../Header/Header';
+import Sidebar from '../Sidebar/Sidebar';
+import Overlaybg from '../Overlaybg/Overlaybg';
 import Footer from '../Footer/Footer';
 
 class App extends Component {
 
-  handleCardClick = id => {
-    console.log(id)
+  constructor(props){
+    super(props);
+    this.state={
+      menuOpen:false,
+    }
+  }
+
+  handleMenuOpenClick = () => {
+    this.setState({ menuOpen: !this.state.menuOpen })
+  }
+
+  handleMenuCloseClick = () => {
+    this.setState({ menuOpen: false })
   }
 
   render() {
     return (
       <div className="finance">
         <Header
-          id="mySidebar"
-          onClick={this.handleCardClick}
+          onClick={this.handleMenuOpenClick}
         />
+        {this.state.menuOpen && <Sidebar onClick={this.handleMenuCloseClick} />}
+        {this.state.menuOpen && <Overlaybg onClick={this.handleMenuCloseClick} />}
         <Content />
         <Footer />
       </div>

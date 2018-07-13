@@ -9,7 +9,7 @@ class Content extends Component {
           <h1 className="Content-title">Welcome to React</h1>
         </header>
         <p className="Content-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          Welcome.
         </p>
       </div>
     );
