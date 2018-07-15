@@ -5,3 +5,14 @@
 .finance > .header > .largeur {
   max-width:1200px;
 }
+
+.finance > .header > .largeur > .lien {
+  padding-top: 15px;
+  opacity: 0.7;
+  filter: Alpha(opacity=70); /* IE8 and earlier */
+}
+
+.finance > .header > .largeur > .lien:hover {
+  opacity: 1;
+  filter: Alpha(opacity=100); /* IE8 and earlier */
+}

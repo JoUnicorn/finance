@@ -16,7 +16,7 @@ class App extends Component {
   }
 
   handleMenuOpenClick = () => {
-    this.setState({ menuOpen: !this.state.menuOpen })
+    this.setState({ menuOpen: true })
   }
 
   handleMenuCloseClick = () => {
