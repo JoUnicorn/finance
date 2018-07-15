@@ -10,8 +10,8 @@ const Sidebar = ({onClick }) => (
     <hr />
     <div className="w3-bar-block">
       <button className="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black" onClick={() => onClick()} title="close menu"><i className="fa fa-remove fa-fw"></i>  Close Menu</button>
-      <button className="w3-bar-item w3-button w3-padding w3-blue"><i className="fa fa-users fa-fw"></i>  Project</button>
-      <button className="w3-bar-item w3-button w3-padding"><i className="fa fa-eye fa-fw"></i>  Add component</button>
+      <a href="#" className="w3-bar-item w3-button w3-padding w3-blue"><i className="fa fa-users fa-fw"></i>  Project</a>
+      <a href="#" className="w3-bar-item w3-button w3-padding"><i className="fa fa-eye fa-fw"></i>  Add component</a>
     </div>
   </nav>
 )
