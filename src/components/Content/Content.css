@@ -1,19 +1,43 @@
 .finance > .Content {
   text-align: center;
-  margin-top:63px;
+  margin-top:52px;
 }
 
 .finance > .Content > .Content-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+  background-color: #2A3748;
+  height: 36px;
   color: white;
 }
 
 .finance > .Content > .Content-header > .Content-title {
-  font-size: 1.5em;
+  padding-top: 4px;
+  font-size: 1.2em;
+}
+
+.finance > .Content > .Content-header > .Content-title > .lien {
+  color: #22C3F6;
+  text-decoration: none;
 }
 
 .finance > .Content > .Content-intro {
   font-size: large;
+  padding-top:30px;
+  padding-bottom:30px;
+  max-width:1300px;
+}
+
+.finance > .Content > .Content-intro > .w3-card-4 > .corp {
+  padding-top:20px;
+  padding-bottom:20px;
+  padding-left:120px;
+  padding-right:120px;
+}
+
+.finance > .Content > .Content-intro > .w3-card-4 > .cardH {
+  opacity: 0.6;
+  filter: Alpha(opacity=60); /* IE8 and earlier */
+}
+
+.finance > .Content > .Content-intro > .w3-card-4 > .cardF {
+  background-color: #F5F5F5;
 }

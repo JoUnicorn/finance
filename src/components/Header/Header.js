@@ -7,8 +7,8 @@ const Header = ({onClick }) => (
     <div className="w3-content largeur">
       <button className="w3-bar-item w3-button w3-hide-large w3-hover-none lien" onClick={() => onClick()}><i className="fa fa-bars"></i>  Data team</button>
       <span className="w3-bar-item w3-left w3-hide-medium w3-hide-small"><i className="fas fa-database"></i> Data team</span>
-      <a href="#" className="w3-medium w3-bar-item w3-button w3-hide-medium w3-hide-small w3-left w3-hover-none lien">Project</a>
-      <a href="#" className="w3-medium w3-bar-item w3-button w3-hide-medium w3-hide-small w3-left w3-hover-none lien">Add component</a>
+      <a href="#" className="w3-medium w3-bar-item w3-button w3-hide-medium w3-hide-small w3-right w3-hover-none lien">Project</a>
+      <a href="#" className="w3-medium w3-bar-item w3-button w3-hide-medium w3-hide-small w3-right w3-hover-none lien">Add component</a>
     </div>
   </div>
 )
